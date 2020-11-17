@@ -1,0 +1,89 @@
+body {
+    background-image: url(/Users/nick/Documents/VSC/Assets/Graphics/BG_lofi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fill;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    font-size: 28px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.nav-link {
+    width: 20%;
+    justify-content: space-around;
+}
+
+header {
+    font-size: 69px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    color: lavender;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.youtube {
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+iframe {
+    border-radius: 25px;
+}
+
+button {
+    max-width: 100%;
+    margin: auto;
+    font-size: 38px;
+    border-radius: 20px;
+    padding: 0.5%;
+    background-color: lavender;
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover {
+    background-color: white;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    background-color: lavender;
+    border-radius: 25px;
+    color: blueviolet;
+    padding: 1% 1%;
+}
+
+a:hover {
+    background-color:white;
+}
+
+.internal {
+    margin-top: 3%;;
+}
+
+@media only screen and (max-width: 700px) {
+    header {
+        font-size: 40px;
+    }
+
+    nav {
+        font-size: 18px;
+    }
+}
+
+/*git*/
