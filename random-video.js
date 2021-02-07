@@ -17,7 +17,8 @@ const button = document.getElementById('random-button')
 button.onclick = function() {
     let random_video = "https://www.youtube.com/embed/" + videos[Math.floor(Math.random() * videos.length)];
     document.getElementById('iframe').src = random_video;
-    videos.pop(randomVideo);
+    videos.pop(random_video);
+    playedVideos.push(random_video)
     if (videos.length <= 1) {
         for (i=0; i < playedVideos.length; i++) {
             playedVideos[i].pop();
