@@ -7,9 +7,9 @@ const qs1 = 'VQ15kYKsilk';
 const qs2 = '1rY5x6U2oHo';
 const qs3 = '7bolXtCzeHo';
 const humanimal = 'Dzpdgnv66Vk';
-const bedroom_set = 'COCrUY9XRYU'
+const bedroomSet = 'COCrUY9XRYU'
 
-let videos = [WFH_17, WFH_18, WFH_21, WFH_24, qs_1, QS_2, QS_3, bedroom_set]
+let videos = [wfh17, wfh18, wfh21, wfh24, qs1, qs2, qs3, bedroomSet]
 
 const button = document.getElementById('random-button')
 
