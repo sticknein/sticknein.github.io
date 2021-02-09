@@ -15,9 +15,9 @@ const button = document.getElementById('random-button')
 
 button.onclick = function() {
     let currentVideo = document.getElementById('iframe').src;
+    let randomVideo = "https://www.youtube.com/embed/" + videos[Math.floor(Math.random() * videos.length)];
     while (randomVideo !== currentVideo) {
-        let randomVideo = "https://www.youtube.com/embed/" + videos[Math.floor(Math.random() * videos.length)];
-    document.getElementById('iframe').src = randomVideo;
+        document.getElementById('iframe').src = randomVideo;
     }   
 }
 
