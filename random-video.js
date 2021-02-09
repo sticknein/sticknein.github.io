@@ -20,5 +20,6 @@ button.onclick = function() {
         document.getElementById('iframe').src = randomVideo;
     } else {
         let randomVideo = "https://www.youtube.com/embed/" + videos[Math.floor(Math.random() * videos.length)];
+        document.getElementById('iframe').src = randomVideo;
     }
 }
